@@ -7,7 +7,7 @@ Created on Wed Jan 27 10:51:33 2021
 app.put('',())
 app.push(''.())
 app.get()
-
+app()
 import json
 from flask import Flask ,jsonify,request,Response,make_response
 from flask_sqlalchemy import SQLAlchemy
