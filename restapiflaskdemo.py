@@ -4,6 +4,7 @@ Created on Wed Jan 27 10:51:33 2021
 
 @author: ChiruvellaPoojitha
 """
+app.put('',())
 
 import json
 from flask import Flask ,jsonify,request,Response,make_response
