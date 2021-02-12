@@ -4,8 +4,7 @@ Created on Wed Jan 27 10:51:33 2021
 
 @author: ChiruvellaPoojitha
 """
-app.put('',())
-app.push(''.())
+
 
 import json
 from flask import Flask ,jsonify,request,Response,make_response
@@ -64,7 +63,7 @@ class ProductSchema(ModelSchema):
     price=fields.Number(required=True)
     imgUrl=fields.String(required=True)
 
-@app.route('/ibm',methods=['POST'])       
+@app.route('/products',methods=['POST'])       
 def createProduct():
     data= request.get_json()        #get json data
     product_schema =ProductSchema()
